@@ -12,7 +12,7 @@ This project analyzes Amazon product and review data using PySpark. It is design
 - Model evaluation and hyperparameter tuning
 
 ## File Structure
-- `21.py`: Main script containing all data processing and ML tasks
+- `amazon_reviews_analytics.py`: Main script containing all data processing and ML tasks
 - `DSC102_PA2.pdf`: Project instructions and details
 - `utilities.py`: Utility functions and constants (e.g., random seed)
 
@@ -23,7 +23,7 @@ This project analyzes Amazon product and review data using PySpark. It is design
 
 ## Usage
 1. Upload the scripts to your AWS EMR cluster.
-2. Run `21.py` as the main entry point. The script expects Spark DataFrames as input for review and product data.
+2. Run `amazon_reviews_analytics.py` as the main entry point. The script expects Spark DataFrames as input for review and product data.
 3. Each `task_X` function performs a specific analytics or ML task and saves results using the provided `data_io` interface.
 
 ## Tasks Overview
